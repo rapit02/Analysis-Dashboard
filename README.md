@@ -12,7 +12,7 @@ Built with Python, pandas, DuckDB, matplotlib, and Streamlit.
 
 ## Project Structure
 ```
-challenge-2/
+Analysis-Dashboard/
 ├── data/
 │   ├── analysis.ipynb          # Main analysis notebook
 │   ├── data_model.png          # Star schema diagram (dbdiagram.io)
