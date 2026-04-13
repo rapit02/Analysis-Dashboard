@@ -1,6 +1,6 @@
 # Analysis-Dashboard
 
-# Challenge 2 — Chicago Taxi Data Analysis
+# Chicago Taxi Data Analysis
 
 ## Overview
 
