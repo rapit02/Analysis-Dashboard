@@ -118,7 +118,7 @@ def query_company_performance(df: pd.DataFrame) -> pd.DataFrame:
         WHERE company IS NOT NULL
         AND trip_miles > 0
         GROUP BY company
-        HAVING COUNT(*) > 1000
+        HAVING COUNT(*) > 10
         ORDER BY total_revenue DESC
     """).df()
 
@@ -135,7 +135,7 @@ def query_payment_behaviour(df: pd.DataFrame) -> pd.DataFrame:
         FROM df
         WHERE payment_type IS NOT NULL
         GROUP BY payment_type
-        HAVING COUNT(*) > 1000
+        HAVING COUNT(*) > 10
         ORDER BY trip_count DESC
     """).df()
 
