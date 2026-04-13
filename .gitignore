@@ -1,0 +1,5 @@
+challenge-2/data/chicago_taxi_2020.csv
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+challenge-2/venv/
