@@ -110,6 +110,10 @@ jupyter notebook
 # Kernel → Restart Kernel and Run All Cells
 ```
 
+## Data
+The dataset (chicago_taxi_2020.csv) is not included due to file size.
+Place it in the data/ folder before running the dashboard.
+
 ### Streamlit Dashboard
 ```bash
 pip3 install streamlit plotly duckdb pandas
